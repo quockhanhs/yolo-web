@@ -1,4 +1,18 @@
-
+:root {
+    --background-color: #fff;
+    --text-color: rgb(173, 173, 173);
+    --primary-color: rgb(65, 103, 178);
+    --black-color: rgb(46, 47, 51);
+    --white-color: #fff;
+  
+    --width-menu-mobile: 150px;
+  }
+  * {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 body{
     user-select: none;
     font-size: 62.5%;
@@ -120,16 +134,7 @@ p{
     height: 100%;
     position: relative;
 }
-.intro-top-img-bg{
-    margin-top: 1.2%;
-    position: absolute;
-    background-color: var(--primary-color);
-    width: 74%;
-    height: 83%;
-    z-index: 98;
-    transform: rotate(-135deg);
-    border-radius: 58% 42% 38% 62% / 42% 55% 45% 58%;
-}
+
   
 .intro-top-img-sample img{
     position: absolute;
@@ -288,6 +293,3 @@ p{
     width: 100px;
     height: 50px;
 }
-
-  
-  
